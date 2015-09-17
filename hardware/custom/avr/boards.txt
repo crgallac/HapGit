@@ -1,0 +1,27 @@
+unorestore.name=UNO 16U2 Restore Firmware
+unorestore.bootloader.tool=arduino:avrdude
+unorestore.bootloader.low_fuses=0xff
+unorestore.bootloader.high_fuses=0xd9
+unorestore.bootloader.extended_fuses=0xf4
+unorestore.bootloader.file=Arduino-COMBINED-dfu-usbserial-atmega16u2-Uno-Rev3.hex
+unorestore.bootloader.unlock_bits=0x3F
+unorestore.bootloader.lock_bits=0x0F
+unorestore.build.mcu=atmega16u2
+unorestore.build.f_cpu=16000000L
+unorestore.build.board=uno.build.board=AVR_UNO
+unorestore.build.core=arduino:arduino
+unorestore.build.variant=standard
+
+duerestore.name=DUE 16U2 Restore Firmware
+duerestore.bootloader.tool=arduino:avrdude
+duerestore.bootloader.low_fuses=0xff
+duerestore.bootloader.high_fuses=0xd9
+duerestore.bootloader.extended_fuses=0xf4
+duerestore.bootloader.file=Arduino-COMBINED-dfu-usbserial-atmega16u2-Due-Rev3.hex
+duerestore.bootloader.unlock_bits=0x3F
+duerestore.bootloader.lock_bits=0x0F
+duerestore.build.mcu=atmega16u2
+duerestore.build.f_cpu=16000000L
+duerestore.build.board=due.build.board=AVR_due
+duerestore.build.core=arduino:arduino
+duerestore.build.variant=standard
